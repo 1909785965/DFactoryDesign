@@ -16,6 +16,11 @@
 		D825F0E6250B0F4600D9C27F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F0E5250B0F4600D9C27F /* main.m */; };
 		D825F0F0250B0F4600D9C27F /* DFactoryDesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F0EF250B0F4600D9C27F /* DFactoryDesignTests.m */; };
 		D825F0FB250B0F4600D9C27F /* DFactoryDesignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F0FA250B0F4600D9C27F /* DFactoryDesignUITests.m */; };
+		D825F10A250B0F7200D9C27F /* DeviceCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F109250B0F7200D9C27F /* DeviceCreator.m */; };
+		D825F10E250B0FBA00D9C27F /* BaseDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F10D250B0FBA00D9C27F /* BaseDevice.m */; };
+		D825F117250B102700D9C27F /* iPhoneDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F116250B102700D9C27F /* iPhoneDevice.m */; };
+		D825F11A250B103500D9C27F /* AndroidDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F119250B103500D9C27F /* AndroidDevice.m */; };
+		D825F11D250B104900D9C27F /* WindowsDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D825F11C250B104900D9C27F /* WindowsDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,17 @@
 		D825F0F6250B0F4600D9C27F /* DFactoryDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFactoryDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D825F0FA250B0F4600D9C27F /* DFactoryDesignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFactoryDesignUITests.m; sourceTree = "<group>"; };
 		D825F0FC250B0F4600D9C27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D825F108250B0F7200D9C27F /* DeviceCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceCreator.h; sourceTree = "<group>"; };
+		D825F109250B0F7200D9C27F /* DeviceCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceCreator.m; sourceTree = "<group>"; };
+		D825F10B250B0F9F00D9C27F /* DeviceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceProtocol.h; sourceTree = "<group>"; };
+		D825F10C250B0FBA00D9C27F /* BaseDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDevice.h; sourceTree = "<group>"; };
+		D825F10D250B0FBA00D9C27F /* BaseDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDevice.m; sourceTree = "<group>"; };
+		D825F115250B102700D9C27F /* iPhoneDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneDevice.h; sourceTree = "<group>"; };
+		D825F116250B102700D9C27F /* iPhoneDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneDevice.m; sourceTree = "<group>"; };
+		D825F118250B103500D9C27F /* AndroidDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidDevice.h; sourceTree = "<group>"; };
+		D825F119250B103500D9C27F /* AndroidDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidDevice.m; sourceTree = "<group>"; };
+		D825F11B250B104900D9C27F /* WindowsDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowsDevice.h; sourceTree = "<group>"; };
+		D825F11C250B104900D9C27F /* WindowsDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowsDevice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +126,17 @@
 				D825F0D7250B0F4200D9C27F /* SceneDelegate.m */,
 				D825F0D9250B0F4200D9C27F /* ViewController.h */,
 				D825F0DA250B0F4200D9C27F /* ViewController.m */,
+				D825F108250B0F7200D9C27F /* DeviceCreator.h */,
+				D825F109250B0F7200D9C27F /* DeviceCreator.m */,
+				D825F10B250B0F9F00D9C27F /* DeviceProtocol.h */,
+				D825F10C250B0FBA00D9C27F /* BaseDevice.h */,
+				D825F10D250B0FBA00D9C27F /* BaseDevice.m */,
+				D825F115250B102700D9C27F /* iPhoneDevice.h */,
+				D825F116250B102700D9C27F /* iPhoneDevice.m */,
+				D825F118250B103500D9C27F /* AndroidDevice.h */,
+				D825F119250B103500D9C27F /* AndroidDevice.m */,
+				D825F11B250B104900D9C27F /* WindowsDevice.h */,
+				D825F11C250B104900D9C27F /* WindowsDevice.m */,
 				D825F0DC250B0F4200D9C27F /* Main.storyboard */,
 				D825F0DF250B0F4600D9C27F /* Assets.xcassets */,
 				D825F0E1250B0F4600D9C27F /* LaunchScreen.storyboard */,
@@ -267,9 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D825F10A250B0F7200D9C27F /* DeviceCreator.m in Sources */,
 				D825F0DB250B0F4200D9C27F /* ViewController.m in Sources */,
 				D825F0D5250B0F4200D9C27F /* AppDelegate.m in Sources */,
+				D825F11A250B103500D9C27F /* AndroidDevice.m in Sources */,
 				D825F0E6250B0F4600D9C27F /* main.m in Sources */,
+				D825F117250B102700D9C27F /* iPhoneDevice.m in Sources */,
+				D825F11D250B104900D9C27F /* WindowsDevice.m in Sources */,
+				D825F10E250B0FBA00D9C27F /* BaseDevice.m in Sources */,
 				D825F0D8250B0F4200D9C27F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNFE3HJ7K8;
 				INFOPLIST_FILE = DFactoryDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNFE3HJ7K8;
 				INFOPLIST_FILE = DFactoryDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
